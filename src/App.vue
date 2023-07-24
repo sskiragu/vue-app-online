@@ -2,6 +2,9 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <router-link to="/services">Services</router-link>
+    <router-link to="/login">Login</router-link>
+    <router-link to="/signup">Signup</router-link>
   </nav>
   <router-view/>
 </template>
@@ -22,6 +25,7 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  padding: 14px 28px;
 }
 
 nav a.router-link-exact-active {
